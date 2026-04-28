@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Clases y Objetos</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="contenido">
+
+<h2>Clases y Objetos</h2>
+
+<p>
+En Java, las clases y los objetos son la base de la programación.
+Ayudan a organizar la información y a crear programas más ordenados.
+</p>
+
+<details class="interactivo">
+
+<summary>¿Qué es una clase?</summary>
+
+<p>
+Una clase es como un molde o diseño que se usa para crear cosas en un programa. En ese molde se definen las características que tendrán.
+</p>
+<p>
+Por ejemplo, si la clase es un coche, en ella se puede indicar el color, la marca y la velocidad. La clase no es un coche real, sino el modelo que sirve para crear diferentes coches.
+</p>
+
+</details>
+
+
+
+<details class="interactivo">
+
+<summary>¿Qué es un objeto?</summary>
+
+<p>
+Un objeto es un elemento específico que se crea a partir de una clase. Por ejemplo, si la clase es “Coche”, un objeto sería un coche en particular, como un coche rojo de cierta marca.
+</p>
+
+<p>
+Aunque varios objetos pertenezcan a la misma clase, no tienen que ser iguales, ya que cada uno puede tener características diferentes. Por ejemplo, todos pueden ser coches, pero uno puede ser rojo y otro azul, o de distinta marca.
+</p>
+<p>
+    Es importante no confundirlos: la clase es el modelo o la idea general, mientras que el objeto es un ejemplo concreto que se crea a partir de ese modelo y que se utiliza dentro del programa.
+</p>
+
+</details>
+<img src="imgclases.png" class="imagen-java">
+
+
+
+<details class="interactivo">
+
+<summary>Ejemplo sencillo (clase y objeto)</summary>
+
+<p>
+En este ejemplo se crea una clase llamada Persona y después se crea un objeto.
+</p>
+
+<pre class="codigo">
+
+class Persona {
+
+String nombre;
+int edad;
+
+}
+
+public class Principal {
+
+public static void main(String[] args) {
+
+Persona persona1 = new Persona();
+
+persona1.nombre = "Ana";
+persona1.edad = 20;
+
+}
+
+}
+
+</pre>
+
+<p>
+Aquí "Persona" es la clase, y "persona1" es el objeto.
+</p>
+
+</details>
+
+
+
+<h3>Mini ejercicio</h3>
+
+<p>Selecciona cuál es un objeto:</p>
+
+<form class="formulario">
+
+<label>
+<input type="radio" name="respuesta">
+class Persona
+</label>
+
+<br><br>
+
+<label>
+<input type="radio" name="respuesta">
+Persona
+</label>
+
+<br><br>
+
+<label>
+<input type="radio" name="respuesta">
+persona1 = new Persona();
+</label>
+
+<br><br>
+
+<details class="respuesta">
+
+<summary class="boton-respuesta">Ver respuesta</summary>
+
+<p class="respuesta-correcta">
+La respuesta correcta es: <strong>persona1 = new Persona();</strong><br><br>
+Porque es un objeto creado a partir de la clase Persona.
+</p>
+
+</details>
+
+</form>
+
+
+</div>
+
+</body>
+</html>

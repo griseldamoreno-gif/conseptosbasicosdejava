@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Estructuras en Java</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="contenido">
+
+<h2>Operaciones y Estructuras</h2>
+
+<p>
+En esta sección aprenderás cómo realizar operaciones, tomar decisiones
+y repetir acciones en Java.
+</p>
+
+<img src="estr.png" class="imagen-1">
+
+
+<!-- OPERACIONES -->
+
+<details class="interactivo">
+<summary>Operaciones básicas</summary>
+
+<p>
+Las operaciones básicas se utilizan para hacer cálculos dentro de un programa.
+Funcionan de forma similar a las matemáticas.
+</p>
+
+<ul>
+<li>+ suma</li>
+<li>- resta</li>
+<li>* multiplicación</li>
+<li>/ división</li>
+</ul>
+
+<pre class="codigo">
+int a = 5;
+int b = 3;
+
+int resultado = a + b;
+</pre>
+
+<p>
+En este ejemplo se suman dos números (5 y 3) y el resultado se guarda en una variable.
+Estas operaciones se usan para resolver problemas o hacer cálculos.
+</p>
+
+</details>
+
+
+<!-- IF -->
+
+<details class="interactivo">
+<summary>if (decisiones)</summary>
+
+<p>
+La estructura <strong>if</strong> se utiliza para tomar decisiones dentro de un programa.
+Solo ejecuta una acción si se cumple una condición.
+</p>
+
+<pre class="codigo">
+int edad = 18;
+
+if(edad >= 18){
+System.out.println("Eres mayor de edad");
+}
+</pre>
+
+<p>
+En este ejemplo, el programa revisa si la edad es mayor o igual a 18.
+Si se cumple la condición, muestra el mensaje.
+Si no, no hace nada.
+</p>
+
+</details>
+
+
+<!-- FOR -->
+
+<details class="interactivo">
+<summary>for (repeticiones)</summary>
+
+<p>
+El ciclo <strong>for</strong> se utiliza para repetir una acción varias veces.
+Se usa cuando ya sabes cuántas veces quieres repetir algo.
+</p>
+
+<pre class="codigo">
+for(int i = 1; i <= 3; i++){
+System.out.println("Hola");
+}
+</pre>
+
+<p>
+En este caso, el mensaje "Hola" se repite 3 veces.
+La variable "i" controla el número de repeticiones.
+</p>
+
+</details>
+
+
+<!-- WHILE -->
+
+<details class="interactivo">
+<summary>while (repeticiones)</summary>
+
+<p>
+El ciclo <strong>while</strong> repite una acción mientras se cumpla una condición.
+No siempre se sabe cuántas veces se repetirá.
+</p>
+
+<pre class="codigo">
+int i = 1;
+
+while(i <= 3){
+System.out.println("Hola");
+i++;
+}
+</pre>
+
+<p>
+Este ciclo se repite mientras "i" sea menor o igual a 3.
+En cada repetición, el valor aumenta hasta que la condición deja de cumplirse.
+</p>
+
+</details>
+
+
+<!-- EJERCICIOS -->
+
+<h3>Mini ejercicios</h3>
+
+<p>¿Qué hace este código?</p>
+
+<pre class="codigo">
+System.out.println("Hola");
+</pre>
+
+<details>
+<summary class="boton-respuesta">Ver respuesta</summary>
+<p>Muestra el texto <strong>Hola</strong> en la pantalla.</p>
+</details>
+
+
+<p>¿Cuántas veces se repite este código?</p>
+
+<pre class="codigo">
+for(int i = 1; i <= 3; i++){
+System.out.println("Hola");
+}
+</pre>
+
+<details>
+<summary class="boton-respuesta">Ver respuesta</summary>
+<p>Se repite <strong>3 veces</strong>.</p>
+</details>
+
+
+<p>¿Cuándo se ejecuta el if?</p>
+
+<pre class="codigo">
+if(edad >= 18){
+System.out.println("Mayor");
+}
+</pre>
+
+<details>
+<summary class="boton-respuesta">Ver respuesta</summary>
+<p>Se ejecuta cuando la condición es verdadera.</p>
+</details>
+
+
+</div>
+
+</body>
+</html>
